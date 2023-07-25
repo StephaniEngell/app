@@ -14,13 +14,31 @@ body {
 }
 
 h1 {
-    margin-top: 50px;
+    margin-top: 80px;
+    font-size: 50px;
 }
 
 p {
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 
 button {
-    margin-top: 900px;
+    position: fixed;
+    bottom: 40px;
+    padding: 40px 20px;
+    background-color: #2286D1;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.container {
+    border-bottom: 2px solid #ffffff;
+    align-items: center;
+    padding-bottom: 20px;
 }
